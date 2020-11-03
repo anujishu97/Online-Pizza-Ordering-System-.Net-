@@ -1,0 +1,52 @@
+﻿.log
+{
+    border-radius:30px;
+    background-color:#008CBA;
+    text-align:center;
+    line-height:3;
+    height:20%;
+    width:150%;
+}
+.txt
+{
+    margin-top:15%;
+    border-radius:30px;
+     height:55px;
+    width:150%;
+    padding:10px;
+}
+txt:focus {
+  border: 2px solid dodgerblue;
+}
+.pass
+{
+    margin-top:15%;
+    border-radius:30px;
+     height:55px;
+    width:150%;
+    padding:10px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius:30px;
+  color: white;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width:150%;
+}
+.button1 {
+  background-color: #4CAF50; 
+  color: black;
+}
+
+.button1:hover {
+  background-color:#507a18;
+  color: black;
+}

@@ -1,0 +1,71 @@
+﻿body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+ 
+  height:520px;
+  width:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+.centered {
+  position:absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    width: 939px;
+    height:300px;
+}
+.dia
+{
+    border:3px solid black;
+    border-radius:10px; 
+    background-color:white;
+    
+}
+.bg1{
+ 
+  height:100%;
+  width:200%;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+}
+.centered1{
+  position:absolute;
+  top:50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width:50%;
+}
+.mag
+{
+   display:none;
+   max-width:300px;
+   max-height:200px;
+   
+}
+@media only screen and (max-width: 600px) {
+  .mag 
+  {
+      top:100px;
+
+  }
+}
+.img-man
+{
+    max-width:300px;
+    max-height:200px;
+}
